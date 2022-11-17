@@ -1,0 +1,42 @@
+import styled from "styled-components"
+
+export const Trending1 = styled.div`
+color: green;
+    position:absolute;
+    width: 100%;
+    top:270%;
+    h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h1:before,
+h1:after {
+  background-color: #894850;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 29.5%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+`;
+
+export const RowT = styled.div`
+position: absolute;
+top:280%;
+margin: 0 15%;
+display: flex;
+justify-content:space-between;
+flex-wrap: wrap;
+`;

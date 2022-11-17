@@ -1,0 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.carousel-button{
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    top:50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0 .5rem;
+    background-color: #033d35;
+    padding: 8px 16px; 
+}
+
+.prev{
+left: 10rem;
+}
+
+.next{
+    right: 10rem;
+}
+
+.carousel-button:hover{
+   font-size: 2.5rem;
+}
+
+.carousel-button:focus{
+    outline: 1px solid black;
+}
